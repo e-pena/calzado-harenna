@@ -2,10 +2,13 @@ import React from 'react';
 import Title from './components/Title';
 import Img from './components/Img';
 import ReactLink from './components/ReactLink';
+import NavbarBootstrap from './components/Navbar'
 import './App.css';
 
 function App() {
 	return (
+		<>
+			<NavbarBootstrap />
 		<div className='App'>
 			<header className='App-header'>
 				<Title />
@@ -16,6 +19,7 @@ function App() {
 				</p>
 			</header>
 		</div>
+		</>
 	);
 }
 
