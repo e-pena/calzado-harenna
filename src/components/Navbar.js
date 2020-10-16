@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
-function NavbarBootstrap() {
+function NavBar() {
 	return (
 		<Navbar id="navbar" bg="primary" expand="lg">
             <Navbar.Brand href="#home">Calzado Harenna</Navbar.Brand>
@@ -25,4 +25,4 @@ function NavbarBootstrap() {
 	);
 }
 
-export default NavbarBootstrap;
+export default NavBar;
