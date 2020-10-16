@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 function NavBar() {
 	return (
 		<Navbar id="navbar" bg="primary" expand="lg">
-            <Navbar.Brand href="#home">Calzado Harenna</Navbar.Brand>
+            <Navbar.Brand href="#home">Calzados Harenna</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
