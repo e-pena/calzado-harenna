@@ -22,7 +22,7 @@ function NavBar() {
                     </Nav>
             </Navbar.Collapse>
         </Navbar>
-	);
+    )
 }
 
 export default NavBar;
